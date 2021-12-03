@@ -22,7 +22,7 @@ memory_free=$(vmstat --unit M| awk '{print $4}' | tail -n1|xargs)
 cpu_idle=$(vmstat --unit M| awk '{print $15}' |tail -n1| xargs)
 cpu_kernel=$(vmstat --unit M| awk '{print $13}' |tail -n1| xargs)
 disk_io=$(vmstat --unit M| awk '{print $10}' |tail -n1|xargs)
-disk_available=$(df -BM| awk '{print $4}'|tail -n1 | xargs)
+disk_available=$(df -BM|egrep "sda2" |awk '{print $4}' | xargs)
 timestamp=$(vmstat -t| awk '{print $18"\t"$19}' | tail -n1|xargs)
 
 
