@@ -7,7 +7,7 @@ CREATE TABLE PUBLIC.host_info (
                                   cpu_model VARCHAR NOT NULL,
                                   cpu_mhz DECIMAL(7, 3) NOT NULL,
                                   L2_cache VARCHAR NOT NULL,
-                                  total_mem VARCHAR NOT NULL,
+                                  total_mem INT NOT NULL,
                                   "timestamp" TIMESTAMP NOT NULL,
                                   PRIMARY KEY (id)
 );
