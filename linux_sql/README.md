@@ -72,7 +72,7 @@ host_info.sh psql_host psql_port db_name psql_user psql_password
 The function of this script is to supply usage statistics to our database. This includes ***timestamp, host id, memory free, cpu idle, cpu kernel, disk io, disk available***
 
 ##### Usage
-These parameters can be easily obtained using linux commands like lscpu, vmstat, grep ?
+These parameters can be easily obtained using linux commands like lscpu, vmstat, grep.....
 
 This script allows the data to be inserted into our database it supplies the essentials like ***port number , username, password, database name***
 ```
@@ -139,8 +139,8 @@ The testing and debugging was implemented as follows:-
   SELECT * FROM host_uage;
   ```
 # Deployment
-All scripts and SQL files are deployed onto GitHuB repository excluding local instance of postgres database which is mounted on Docker.
-
+- All scripts and SQL files are deployed onto GitHuB repository excluding local instance of postgres database which is mounted on Docker.
+- Install Docker Engine, Postgres Image and deploy a database on your local repository
 # Improvements
 - Connect the Database to a visualization tool to represent data better
 - More queries to understand the resources needed for each node
