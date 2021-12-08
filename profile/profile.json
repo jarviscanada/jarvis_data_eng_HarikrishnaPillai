@@ -1,0 +1,133 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Executive member of IEEE School Board",
+        "GPA: 3.8"
+      ],
+      "degree": "Post Graduate Diploma",
+      "department": "Electronics Engineering",
+      "duration": "2018-2020",
+      "school_name": "Centennial College"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.7"
+      ],
+      "degree": "Bachelors in Technology",
+      "department": "Electronics \u0026 TeleCommunications Engineering",
+      "duration": "2012-2016",
+      "school_name": "Mahatma Gandhi University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai",
+  "highlighted_projects": [
+    {
+      "description": "The project involves efficient use of DML to extract insights from thousands of records to showcase how metrics like age, gender equality and salaries have progressed through years.The data which was extracted was visualized using Tableau.",
+      "git_url": "https://github.com/HarikrishnaSPillai/SQL-employees",
+      "name": "Employee Trends of Salary, Gender Equality"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "The monitoring agent does the job of actively keeping an eye on the usage statistics which helps in effective resource management.This is possible with help of several different technologies working in tandem. The monitoring agent works on each node inserting values every minute from the node into postgres SQL database which mounted on a container using Docker.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitoring Agent"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Harikrishna S Pillai",
+  "others": [
+    {
+      "bullets": [
+        "Udemy Advanced SQL"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Winner"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Soccer Player",
+        "Reading Non-Fictional Books",
+        "Volunteer,Basic Engineering for High School Students"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Designed and Developed BashScripts to run with Postgres database Image and Docker Engine",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "BSC Glocal",
+      "description": "1. Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department2. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10%3. Improvised the current SOP which increased the productivity by 25% with almost similar or decreased human effort4. Test and Diagnose products with proper documentation to help organize inventory",
+      "duration": "2020 -2021",
+      "title": "Product Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "Tableau",
+      "MS Excel",
+      "Dart",
+      "Objective C"
+    ],
+    "familiar": [
+      "C++",
+      "JavaScript",
+      "Hadoop",
+      "Spark",
+      "HTML"
+    ],
+    "proficient": [
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "Docker"
+    ]
+  },
+  "summary": "The world is full of cluttered information. The solution to majority of the problem lies amidst the data. I can pull out relevant data to make informed business decisions. Afterall, Business is all about solving problems, Solutions comes from smart decisions and those smart decisions can be made by analysis."
+}
