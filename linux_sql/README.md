@@ -3,11 +3,11 @@
 The monitoring agent does the job of actively keeping an eye on the usage statistics which helps in effective resource management.This is possible with help of several different technologies working in tandem. The monitoring agent works on each node inserting values every minute from the node into postgres SQL database which mounted on a container using Docker.
 
 ##### Technologies used for this project:-
-1.VM instance running on Google Cloud Platform
-2.IntelliJ IDEA(To develop and edit script and SQL files)
-3.PostgreSQL v9.6.24-alpine(Database version)
-4.Jarvis Remote Desktop (JRD) for development/testing with CentOS 7
-5.Docker Engine Community v20.10.11(Container for running Postgres Database)
+1.VM instance running on Google Cloud Platform\
+2.IntelliJ IDEA(To develop and edit script and SQL files)\
+3.PostgreSQL v9.6.24-alpine(Database version)\
+4.Jarvis Remote Desktop (JRD) for development/testing with CentOS 7\
+5.Docker Engine Community v20.10.11(Container for running Postgres Database)\
 
 # Quick Start
 Commands for quick implementation of the project
