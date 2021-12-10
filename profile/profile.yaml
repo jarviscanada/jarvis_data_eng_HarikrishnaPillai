@@ -16,7 +16,7 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
-    - Docker 
+    - Docker
   # At least 5 skills
   competent:
     - Python
@@ -41,38 +41,41 @@ jarvis_projects:
     description: "The monitoring agent does the job of actively keeping an eye on the usage statistics which helps in effective resource management.This is possible with help of several different technologies working in tandem. The monitoring agent works on each node inserting values every minute from the node into postgres SQL database which mounted on a container using Docker."
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+    description: "In Progress"
   - name: "Springboot App"
     git_url: "/springboot"
-    description: ""
+    description: "In Progress"
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
-    description: ""
+    description: "In Progress"
   - name: "Hadoop"
     git_url: "/hadoop"
-    description: ""
+    description: "In Progress"
   - name: "Spark"
     git_url: "/spark"
-    description: ""
+    description: "In Progress"
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
-    description: ""
+    description: "In Progress"
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
+  #project name
   - name: "Employee Trends of Salary, Gender Equality"
     #URL is optional
     git_url: "https://github.com/HarikrishnaSPillai/SQL-employees"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "The project involves efficient use of DML to extract insights from thousands of records to showcase how metrics like age, gender equality and salaries have progressed through years.The data which was extracted was visualized using Tableau."
+  - name: "Real Time Parking Spot Detection"
+      #URL is optional
+    git_url: "https://github.com/HarikrishnaSPillai/"
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Designed and Developed a system where Raspberry Pi works with TensorFlow to calculate the number of parking spots available, the data thus obtained is sent to users with Firebase and a Flutter app(Google Auth and Map API) on the client side"
+
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The descripion must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
@@ -81,7 +84,7 @@ professional_experience:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Designed and Developed BashScripts to run with Postgres database Image and Docker Engine"
   - title: "Product Analyst"
-    company: "BSC Glocal"
+    company: "BSC Global"
     duration: "2020 -2021"
     description: "1. Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to
 showcase the improvements made by the department\n
@@ -91,13 +94,13 @@ by approximately 10%\n
 decreased human effort\n
 4. Test and Diagnose products with proper documentation to help organize inventory"
 #List of edcuation
-education: 
+education:
   - school_name: "Centennial College"
     duration: "2018-2020"
     degree: "Post Graduate Diploma"
     department: "Electronics Engineering"
     # optional
-    awards_achievements: 
+    awards_achievements:
       - "Executive member of IEEE School Board"
       - "GPA: 3.8"
   - school_name: "Mahatma Gandhi University"
@@ -109,16 +112,17 @@ education:
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Certificates"
     #list of items
     bullets:
       - "Udemy Advanced SQL"
-  - title: "Awards"
+      - "100 days of Python Coding"
+  - title: "Volunteer Work"
     bullets:
-      - "Winner"
+      - "IEEE Student Volunteer in year 2018"
+      - "STEM workshop for High School Students"
   - title: "Activities/Hobbies"
     bullets:
       - "Soccer Player"
       - "Reading Non-Fictional Books"
-      - "Volunteer,Basic Engineering for High School Students"

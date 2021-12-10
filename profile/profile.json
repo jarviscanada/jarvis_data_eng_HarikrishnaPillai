@@ -26,6 +26,11 @@
       "description": "The project involves efficient use of DML to extract insights from thousands of records to showcase how metrics like age, gender equality and salaries have progressed through years.The data which was extracted was visualized using Tableau.",
       "git_url": "https://github.com/HarikrishnaSPillai/SQL-employees",
       "name": "Employee Trends of Salary, Gender Equality"
+    },
+    {
+      "description": "Designed and Developed a system where Raspberry Pi works with TensorFlow to calculate the number of parking spots available, the data thus obtained is sent to users with Firebase and a Flutter app(Google Auth and Map API) on the client side",
+      "git_url": "https://github.com/HarikrishnaSPillai/",
+      "name": "Real Time Parking Spot Detection"
     }
   ],
   "jarvis_projects": [
@@ -35,36 +40,32 @@
       "name": "Linux Cluster Monitoring Agent"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
+      "description": "In Progress",
       "git_url": "/core_java",
       "name": "Core Java Apps"
     },
     {
-      "description": "",
+      "description": "In Progress",
       "git_url": "/springboot",
       "name": "Springboot App"
     },
     {
-      "description": "",
+      "description": "In Progress",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
     },
     {
-      "description": "",
+      "description": "In Progress",
       "git_url": "/hadoop",
       "name": "Hadoop"
     },
     {
-      "description": "",
+      "description": "In Progress",
       "git_url": "/spark",
       "name": "Spark"
     },
     {
-      "description": "",
+      "description": "In Progress",
       "git_url": "/cloud_devops",
       "name": "Cloud/DevOps"
     }
@@ -73,21 +74,22 @@
   "others": [
     {
       "bullets": [
-        "Udemy Advanced SQL"
+        "Udemy Advanced SQL",
+        "100 days of Python Coding"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Winner"
+        "IEEE Student Volunteer in year 2018",
+        "STEM workshop for High School Students"
       ],
-      "title": "Awards"
+      "title": "Volunteer Work"
     },
     {
       "bullets": [
         "Soccer Player",
-        "Reading Non-Fictional Books",
-        "Volunteer,Basic Engineering for High School Students"
+        "Reading Non-Fictional Books"
       ],
       "title": "Activities/Hobbies"
     }
@@ -100,8 +102,8 @@
       "title": "Software Developer"
     },
     {
-      "company": "BSC Glocal",
-      "description": "1. Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department2. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10%3. Improvised the current SOP which increased the productivity by 25% with almost similar or decreased human effort4. Test and Diagnose products with proper documentation to help organize inventory",
+      "company": "BSC Global",
+      "description": "1. Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department\n 2. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10%\n 3. Improvised the current SOP which increased the productivity by 25% with almost similar or decreased human effort\n 4. Test and Diagnose products with proper documentation to help organize inventory",
       "duration": "2020 -2021",
       "title": "Product Analyst"
     }
