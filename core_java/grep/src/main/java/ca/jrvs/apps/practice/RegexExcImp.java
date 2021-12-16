@@ -1,10 +1,7 @@
 package ca.jrvs.apps.practice;
-import java.util.Scanner;
 
 public class RegexExcImp implements RegexExc {
 
-
-    //Methods
     @Override
     public boolean matchJpeg(String filename) {
         return filename.matches("([^\\s]+(\\.(?i)(jpe?g))$)");
