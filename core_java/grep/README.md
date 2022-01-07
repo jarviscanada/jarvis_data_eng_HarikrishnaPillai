@@ -59,4 +59,4 @@ Build Image
 # Improvement
 - Instead of storing each lines into a list if the pattern matching process happens simultaneously along with reading each line it can decrease the need of heap memory
 - Instead of passing inputs as arguments the application can be made interactive making another process for User Interface
-- Inputs can be validated
+- The only input validation that occurs now is for number of arguments this can be upgraded to checking if the inputs are in a given format
