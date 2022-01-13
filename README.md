@@ -1,72 +1,47 @@
 # Harikrishna S Pillai . Jarvis Consulting
 
-A Software engineering enthusiast who is passionate in developing applications. Graduated in 2020 from Centennial College with focus on embedded systems where I developed several programs written in assembly language which communicated with microcontrollers. Working at Jarvis helped me realize my passion for programming and developing real world applications. Looking to leverage my acumen by working on challenging products and services.
+A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Version Control, Java, Bash Scripting, RDBMS(SQL), Maven, Docker, JDBC, CLI. I aspire to deliver world-class applications along with pursuing my passion to learn new technologies.
 
 ## Skills
 
-**Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Docker, Java
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git/GitHub, IntelliJ, Docker
 
-**Competent:** Python, Tableau, MS Excel, Dart, Objective C
+**Competent:** Python, Flutter/Dart, Objective C, Firebase, Assembly Language
 
-**Familiar:** C++, JavaScript, CSS, HTML
+**Familiar:** HTML/CSS, MATLAB, JavaScript, Android Studio, Node.js
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai)
 
 
-**Linux Cluster Monitoring Agent** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/linux_sql)]: The monitoring agent does the job of actively keeping an eye on the usage statistics which helps in effective resource management.This is possible with help of several different technologies working in tandem. The monitoring agent works on each node inserting values every minute from the node into postgres SQL database which mounted on a container using Docker.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/linux_sql)]: Developed a monitoring agent using Bash scripts that keep an active track of resource usage statistics of a node in a network. Postgres container mounted on a Docker engine is used as a Database. SQL queries were used for data analysis which also includes an error detection query to check if crontab is updating values on a timely basis. The Bash Scripts are automated using crontab. The agent was run in a CentOS 7 virtual machine on the Google Cloud Platform.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/core_java)]:
+      
+  - JDBC App: Worked on a Java application using JDBC API to connect to a PostgreSQL database. The app allows users to perform CRUD operations and is built using the DAO(Data Access Object) pattern. Maven is used as Project Management Tool.
+  - Grep App: Reimplemented the popular LINUX grep command as a Java App. The application recursively searches through a given directory for a supplied Regex pattern. The matched lines are then written in a text file. The application was improvised by Java 8 features Lambda and Stream API. Streams and Lambda helped in reducing memory usage and inducing a declarative programming approach. IntelliJ was used as IDE and the project was built using Maven. The app is deployed on DockerHub using Docker.
 
-- **Grep App** : The grep Java application is the java implementation of the much popular 'grep' UNIX command. The program scans through files that are in directory and looks for a Regex Pattern (Regular Expression). Once matched copies all those matching lines and saves it to text file that can be specified when calling the program.
-- **JDBC** : The jdbc app leverages the JDBC Api to perform basic (CRUD) operations with Postgres Database which is live container on local machine. The Structural pattern used in this project is Data Access Object pattern.
-
-<!---
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/springboot)]: In Progress
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/python_data_anlytics)]: In Progress
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/hadoop)]: In Progress
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/spark)]: In Progress
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai/tree/master/cloud_devops)]: In Progress
---->
 
 ## Highlighted Projects
-**Employee Trends of Salary, Gender Equality** [[GitHub](https://github.com/HarikrishnaSPillai/SQL-employees)]: The project involves efficient use of DML to extract insights from thousands of records to showcase how metrics like age, gender equality and salaries have progressed through years.The data which was extracted was visualized using Tableau.
+**Real-Time Parking Detection System**: Designed and Developed a Parking Detection system in a Raspberry Pi and Intel Neural Compute Stick. The system used Yolo v3 Real-time Object detection algorithm to process images supplied by Pi cam. The number of parking spots was conveyed from Raspberry Pi to Firebase using Python and Web API. The data received in real-time was broadcast to the client-side web application. The web app was developed using Flutter and Dart programming language. Additionally, the web app used google authentication API and Map API for authentication and GUI purposes.
 
-**Real Time Parking Spot Detection** [[GitHub](https://github.com/HarikrishnaSPillai/)]: Designed and Developed a system where Raspberry Pi works with TensorFlow to calculate the number of parking spots available, the data thus obtained is sent to users with Firebase and a Flutter app(Google Auth and Map API) on the client side
+**Portfolio Website**: Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com -> http://www.analysthari.com/
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2021-present)**:
-- Designed and Developed BashScripts to run with Postgres database Image and Docker Engine.
-- Implemented apps in Java and created corresponding Docker images for portability
-- Proficient in using git and GitHub, praticed gitflow and efficient usage of branches to provide non-hinderance in master branches while delivering new products
+**Software Developer, Jarvis (2020-present)**: Practised Scrum framework for team collaboration and SDLC. Developed several application using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven and version control using Git/GitHub.
 
-**Product Analyst, BSC Global (2020 -2021)**:
-- Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department
-- Prepared an informative dashboard for the logistics department which increased productivity by approximately 10%
-- Improvised the current SOP which increased the productivity by 25% with almost similar or decreased human effort
-- Test and Diagnose products with proper documentation to help organize inventory
+**Product Analyst, BSC Global (2020-2021)**: Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or decreased human effort.Test and Diagnose products with proper documentation to help organize inventory
 
 
 ## Education
 **Centennial College (2018-2020)**, Post Graduate Diploma, Electronics Engineering
-- STEM workshop for High School Students
-- IEEE Student Volunteer in year 2018 and 2019
-- GPA: 3.8
-
-**Mahatma Gandhi University (2012-2016)**, Bachelors in Technology, Electronics & TeleCommunications Engineering
-
-- Sports Committee Leader for 1st Year
-- GPA: 3.7
+- GPA: 3.5/4
 
 
 ## Miscellaneous
-- Playing soccer
+- SQL- SQL for Data Analytics and Business Intelligence
 - Reading Non-Fictional Books
+- Building Projects with Arduino
