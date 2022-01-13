@@ -1,99 +1,91 @@
 # Preferred name (Characters only)
 name: "Harikrishna S Pillai"
 # Your GitHub repo root URL
-github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai"
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HarikrishnaSPillai
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "The world is full of cluttered information. The solution to majority of the problem lies amidst the data. I can pull out relevant data to make informed business decisions. Afterall, Business is all about solving problems, Solutions comes from smart decisions and those smart decisions can be made by analysis."
+summary: A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Version Control, Java, Bash Scripting, RDBMS(SQL), Maven, Docker, JDBC, CLI. I aspire to deliver world-class applications along with pursuing my passion to learn new technologies.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+# DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
 skills:
   # At least 5 skills
   proficient:
+    - Java
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
-    - Git
+    - Git/GitHub
+    - IntelliJ
     - Docker
   # At least 5 skills
   competent:
     - Python
-    - Tableau
-    - MS Excel
-    - Dart
+    - Flutter/Dart
     - Objective C
+    - Firebase
+    - Assembly Language
   # At least 5 skills
   familiar:
-    - C++
+    - HTML/CSS
+    - MATLAB
     - JavaScript
-    - Hadoop
-    - Spark
-    - HTML
+    - Android Studio
+    - Node.js
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux Cluster Monitoring Agent"
+  - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "The monitoring agent does the job of actively keeping an eye on the usage statistics which helps in effective resource management.This is possible with help of several different technologies working in tandem. The monitoring agent works on each node inserting values every minute from the node into postgres SQL database which mounted on a container using Docker."
+    # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+    # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
+    description: "Developed a monitoring agent using Bash scripts that keep an active track of resource usage statistics of a node in a network. Postgres container mounted on a Docker engine is used as a Database. SQL queries were used for data analysis which also includes an error detection query to check if crontab is updating values on a timely basis. The Bash Scripts are automated using crontab. The agent was run in a CentOS 7 virtual machine on the Google Cloud Platform."
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description: "In Progress"
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: "In Progress"
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: "In Progress"
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: "In Progress"
-  - name: "Spark"
-    git_url: "/spark"
-    description: "In Progress"
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: "In Progress"
+    description:
+      #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
+      #- "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
+      - "JDBC App: Worked on a Java application using JDBC API to connect to a PostgreSQL database. The app allows users to perform CRUD operations and is built using the DAO(Data Access Object) pattern. Maven is used as Project Management Tool."
+      # Keywords: Java 8, Lambda, Stream API, IntelliJ
+      - "Grep App: Reimplemented the popular LINUX grep command as a Java App. The application recursively searches through a given directory for a supplied Regex pattern. The matched lines are then written in a text file. The application was improvised by Java 8 features Lambda and Stream API. Streams and Lambda helped in reducing memory usage and inducing a declarative programming approach. IntelliJ was used as IDE and the project was built using Maven. The app is deployed on DockerHub using Docker."
+  # Please remove not started projects below so that they don't show up in your profile for now.
+  # You will need to add a project back to your profile upon completion
 
 # List of personal or academic projects
 # Feel free to add more projects
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
 highlighted_projects:
   #project name
-  - name: "Employee Trends of Salary, Gender Equality"
+  - name: "Real-Time Parking Detection System"
     #URL is optional
-    git_url: "https://github.com/HarikrishnaSPillai/SQL-employees"
+    git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "The project involves efficient use of DML to extract insights from thousands of records to showcase how metrics like age, gender equality and salaries have progressed through years.The data which was extracted was visualized using Tableau."
-  - name: "Real Time Parking Spot Detection"
-      #URL is optional
-    git_url: "https://github.com/HarikrishnaSPillai/"
-      # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Designed and Developed a system where Raspberry Pi works with TensorFlow to calculate the number of parking spots available, the data thus obtained is sent to users with Firebase and a Flutter app(Google Auth and Map API) on the client side"
+    description: Designed and Developed a Parking Detection system in a Raspberry Pi and Intel Neural Compute Stick. The system used Yolo v3 Real-time Object detection algorithm to process images supplied by Pi cam. The number of parking spots was conveyed from Raspberry Pi to Firebase using Python and Web API. The data received in real-time was broadcast to the client-side web application. The web app was developed using Flutter and Dart programming language. Additionally, the web app used google authentication API and Map API for authentication and GUI purposes.
+  - name: "Portfolio Website"
+    git_url:
+    description: Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com -> http://www.analysthari.com/
 
 #List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2021-present"
+    duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Designed and Developed BashScripts to run with Postgres database Image and Docker Engine"
+    description: "Practised Scrum framework for team collaboration and SDLC. Developed several application using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven and version control using Git/GitHub."
   - title: "Product Analyst"
     company: "BSC Global"
-    duration: "2020 -2021"
-    description: "1. Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to
-showcase the improvements made by the department\n
-2. Prepared an informative dashboard for the logistics department which increased productivity
-by approximately 10%\n
-3. Improvised the current SOP which increased the productivity by 25% with almost similar or
-decreased human effort\n
-4. Test and Diagnose products with proper documentation to help organize inventory"
-#List of edcuation
+    duration: "2020-2021"
+    description: "Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity
+    by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or
+    decreased human effort.Test and Diagnose products with proper documentation to help organize inventory"
+
+#List of education
 education:
   - school_name: "Centennial College"
     duration: "2018-2020"
@@ -101,14 +93,7 @@ education:
     department: "Electronics Engineering"
     # optional
     awards_achievements:
-      - "Executive member of IEEE School Board"
-      - "GPA: 3.8"
-  - school_name: "Mahatma Gandhi University"
-    duration: "2012-2016"
-    degree: "Bachelors in Technology"
-    department: "Electronics & TeleCommunications Engineering"
-    awards_achievements:
-      - "GPA: 3.7"
+      - "GPA: 3.5/4"
 
 #Optional section
 others:
@@ -116,13 +101,9 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udemy Advanced SQL"
-      - "100 days of Python Coding"
-  - title: "Volunteer Work"
-    bullets:
-      - "IEEE Student Volunteer in year 2018"
-      - "STEM workshop for High School Students"
+      - "SQL- SQL for Data Analytics and Business Intelligence"
+
   - title: "Activities/Hobbies"
     bullets:
-      - "Soccer Player"
       - "Reading Non-Fictional Books"
+      - "Building Projects with Arduino"
