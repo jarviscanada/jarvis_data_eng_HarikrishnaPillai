@@ -26,7 +26,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Harikrishn
 ## Highlighted Projects
 **Real-Time Parking Detection System**: Designed and Developed a Parking Detection system in a Raspberry Pi and Intel Neural Compute Stick. The system used Yolo v3 Real-time Object detection algorithm to process images supplied by Pi cam. The number of parking spots was conveyed from Raspberry Pi to Firebase using Python and Web API. The data received in real-time was broadcast to the client-side web application. The web app was developed using Flutter and Dart programming language. Additionally, the web app used google authentication API and Map API for authentication and GUI purposes.
 
-**Portfolio Website**: Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com -> http://www.analysthari.com/
+**Portfolio Website**: Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com
 
 
 ## Professional Experiences
