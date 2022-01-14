@@ -1,6 +1,6 @@
 # Harikrishna S Pillai . Jarvis Consulting
 
-A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Version Control, Java, Bash Scripting, RDBMS(SQL), Maven, Docker, JDBC, CLI. I aspire to deliver world-class applications along with pursuing my passion to learn new technologies.
+A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Java, Linux/Shell, GIT, RDBMS(SQL), Maven, Docker, and JDBC. I aspire to deliver world-class applications along with pursuing my passion for learning new technologies.
 
 ## Skills
 
@@ -26,14 +26,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Harikrishn
 ## Highlighted Projects
 **Real-Time Parking Detection System**: Designed and Developed a Parking Detection system in a Raspberry Pi and Intel Neural Compute Stick. The system used Yolo v3 Real-time Object detection algorithm to process images supplied by Pi cam. The number of parking spots was conveyed from Raspberry Pi to Firebase using Python and Web API. The data received in real-time was broadcast to the client-side web application. The web app was developed using Flutter and Dart programming language. Additionally, the web app used google authentication API and Map API for authentication and GUI purposes.
 
-**Portfolio Website**: Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com
+**Portfolio Website**: Developed a Responsive Portfolio website using tech HTML/CSS and Bootstrap. The project is developed with the help of several open source libraries.MoveTo Js for smooth scrolling, MailToUI Js library for a convenient UI section in ContactMe. The website is hosted using AWS services like S3 and route 53. www.analysthari.com
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Practised Scrum framework for team collaboration and SDLC. Developed several application using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven and version control using Git/GitHub.
+**Software Developer, Jarvis (2020-present)**: Exercised Scrum framework for team collaboration and SDLC. Developed several applications using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven, and using Git/GitHub. Utilized Gitflow as the branching model in order to perform a collaborated development approach. Also, I was able to enhance my soft skills like problem-solving, critical thinking, and teamwork.
 
-**Product Analyst, BSC Global (2020-2021)**: Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or decreased human effort.Test and Diagnose products with proper documentation to help organize inventory
+**Product Analyst, BSC Global (2020-2021)**: Delivered quality reports on a biweekly basis using MS Excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or decreased human effort. Test and Diagnose products with proper documentation to help organize inventory.
 
 
 ## Education
@@ -44,4 +44,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Harikrishn
 ## Miscellaneous
 - SQL- SQL for Data Analytics and Business Intelligence
 - Reading Non-Fictional Books
-- Building Projects with Arduino
+- Building Projects using Raspberry Pi

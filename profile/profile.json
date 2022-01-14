@@ -18,7 +18,7 @@
       "name": "Real-Time Parking Detection System"
     },
     {
-      "description": "Developed a Responsive website using tech HTML/CSS/JS as front end stack. The back-end was configured using AWS services like S3 and route 53. www.analysthari.com",
+      "description": "Developed a Responsive Portfolio website using tech HTML/CSS and Bootstrap. The project is developed with the help of several open source libraries.MoveTo Js for smooth scrolling, MailToUI Js library for a convenient UI section in ContactMe. The website is hosted using AWS services like S3 and route 53. www.analysthari.com",
       "git_url": null,
       "name": "Portfolio Website"
     }
@@ -49,7 +49,7 @@
     {
       "bullets": [
         "Reading Non-Fictional Books",
-        "Building Projects with Arduino"
+        "Building Projects using Raspberry Pi"
       ],
       "title": "Activities/Hobbies"
     }
@@ -57,13 +57,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Practised Scrum framework for team collaboration and SDLC. Developed several application using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven and version control using Git/GitHub.",
+      "description": "Exercised Scrum framework for team collaboration and SDLC. Developed several applications using technologies such as Docker, Bash scripting, Java, RDBMS(SQL), Project management using Maven, and using Git/GitHub. Utilized Gitflow as the branching model in order to perform a collaborated development approach. Also, I was able to enhance my soft skills like problem-solving, critical thinking, and teamwork.",
       "duration": "2020-present",
       "title": "Software Developer"
     },
     {
       "company": "BSC Global",
-      "description": "Delivered quality reports on a biweekly basis using MS excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or decreased human effort.Test and Diagnose products with proper documentation to help organize inventory",
+      "description": "Delivered quality reports on a biweekly basis using MS Excel and Power BI to stakeholders to showcase the improvements made by the department. Prepared an informative dashboard for the logistics department which increased productivity by approximately 10 percent. Improvised the current SOP which increased the productivity by 25 percent with almost similar or decreased human effort. Test and Diagnose products with proper documentation to help organize inventory.",
       "duration": "2020-2021",
       "title": "Product Analyst"
     }
@@ -93,5 +93,5 @@
       "Docker"
     ]
   },
-  "summary": "A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Version Control, Java, Bash Scripting, RDBMS(SQL), Maven, Docker, JDBC, CLI. I aspire to deliver world-class applications along with pursuing my passion to learn new technologies."
+  "summary": "A software enthusiast who is passionate about developing applications. During my academic years, I developed several projects using technologies like Flutter, Firebase, and Google APIs. Thereafter, pursuing a career in software became my prime focus. Recently, I started working at Jarvis as a Data Engineer. At Jarvis, our team used the Agile methodology which helped me align with industry-standard SDLC. Moreover, I was able to put my time-management, problem-solving and organizational skills to work by developing applications. Implementation of these applications helped me become proficient in technologies like Java, Linux/Shell, GIT, RDBMS(SQL), Maven, Docker, and JDBC. I aspire to deliver world-class applications along with pursuing my passion for learning new technologies."
 }
