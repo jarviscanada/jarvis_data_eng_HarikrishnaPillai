@@ -9,7 +9,7 @@ public class ValidBrackets {
         Lookup.put('[', ']');
         Lookup.put('{', '}');
         for (int i = 0; i < s.length(); i++) {
-            if (Lookup.containsKey(s.charAt(i)) && Lookup.containsValue(s.charAt(i))) {
+            if (Lookup.containsKey(s.charAt(i)) || Lookup.containsValue(s.charAt(i))) {
                 boolean b = s.charAt(i) == ')' || s.charAt(i) == ']' || s.charAt(i) == '}';
                 if (Storage.isEmpty()) {
                     if (b) {
