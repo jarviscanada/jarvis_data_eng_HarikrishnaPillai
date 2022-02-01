@@ -7,6 +7,8 @@ class RotateStringTest {
     void RotateStringTestMethod(){
         RotateString letter = new RotateString();
         assertEquals("olleH",letter.RotateString("Hello"));
+        assertEquals(true,letter.RString("abcde","cdeab"));
     }
+
 
 }

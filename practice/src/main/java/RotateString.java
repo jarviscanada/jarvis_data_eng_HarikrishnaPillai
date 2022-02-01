@@ -6,4 +6,7 @@ public class RotateString {
         }
         return answer.toString();
     }
+    public boolean RString(String s, String goal){
+        return s.length()==goal.length() && (s+s).contains(goal);
+    }
 }
