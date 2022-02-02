@@ -7,7 +7,7 @@ public class ValidPalindrome {
             pseudo = pseudo + sb.charAt(i);
         }
         StringBuilder end= new StringBuilder(pseudo.replaceAll("[^a-z0-9)]",""));
-        if(sb.toString().equals(end.toString())){
+        if(sb.equals(end)){
             flag=true;
         }
         return flag;
