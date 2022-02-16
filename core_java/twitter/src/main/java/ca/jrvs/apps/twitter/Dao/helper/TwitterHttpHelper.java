@@ -1,6 +1,6 @@
-package ca.jrvs.apps.Dao.helper;
+package ca.jrvs.apps.twitter.dao.helper;
 
-import ca.jrvs.apps.Dao.helper.HttpHelper;
+import ca.jrvs.apps.dao.helper.HttpHelper;
 import java.io.IOException;
 import java.net.URI;
 import oauth.signpost.OAuthConsumer;

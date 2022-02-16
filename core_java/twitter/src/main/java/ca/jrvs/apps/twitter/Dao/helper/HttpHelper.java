@@ -1,4 +1,4 @@
-package ca.jrvs.apps.Dao.helper;
+package ca.jrvs.apps.dao.helper;
 
 import java.net.URI;
 import org.apache.http.HttpResponse;
