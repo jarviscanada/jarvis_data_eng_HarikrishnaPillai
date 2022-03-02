@@ -31,11 +31,17 @@
     },
     {
       "description": [
+        "Twitter CRD App: Developed a CLI tool that allows users to send, get, and delete tweets to and from Twitter using REST API.MVC(Model-View-Controller) design pattern is used to manage the code structure.The Rest APIs interact with Twitter, Maven, and Spring as dependency managers.The application was deployed using Docker Components and then the image was uploaded to Docker Hub.JUnit and Mockito was used for unit testing.",
         "JDBC App: Worked on a Java application using JDBC API to connect to a PostgreSQL database. The app allows users to perform CRUD operations and is built using the DAO(Data Access Object) pattern. Maven is used as Project Management Tool.",
         "Grep App: Reimplemented the popular LINUX grep command as a Java App. The application recursively searches through a given directory for a supplied Regex pattern. The matched lines are then written in a text file. The application was improvised by Java 8 features Lambda and Stream API. Streams and Lambda helped in reducing memory usage and inducing a declarative programming approach. IntelliJ was used as IDE and the project was built using Maven. The app is deployed on DockerHub using Docker."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
+    },
+    {
+      "description": "Employed a mock OLAP using docker and provisioning an image of PostgresSQL database. The retail sales data of our client(LGS) was loaded into this database to carryout complex queries.For communication purposes a network was setup between PostgresSQL and Jupyter notebook container. The retail data was analyzed in Python using Jupyter notebooks. Used REPL client to explore the data.Pandas library was used for manipulation and visualizations.RFM(Recency, Frequency \u0026 Monetary) Segmentation was integrated in the notebook to help determine the budgeting and marketing strategies based on different categories of customers.",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
     }
   ],
   "name": "Harikrishna S Pillai",
