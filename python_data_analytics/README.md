@@ -8,7 +8,7 @@ The Data consulting team at Jarvis pipelined the batch processed data from OLTP 
 ![Architecture](./assets/Arch.jpg "Architecture")
 
 ## Data Analytics and Wrangling
-[Click to access (Jupyter Notebook)](./python_data_erangling/retail_data_analytics_wrangling.ipynb)
+[Click to access (Jupyter Notebook)](./python_data_wrangling/retail_data_analytics_wrangling.ipynb)
 
 - A Plot(Placement/Cancelled) in the analysis has expressed that cancelled orders has increased slightly compared to previous date/time points. This requires attention and the customers who cancelled the orders can be provided with a discounted offer so that they come back and make a purchase.
 - The RFM segementation has potrayed that Loyal/Chanpion Customers are more like to respond to a marketing email or promotion.Providing them with more offers and promotions will yield better profit. However, Hibernating/about to sleep customers won't respond.There previous purchases needed to identified and more discount should be provided against the same product.
