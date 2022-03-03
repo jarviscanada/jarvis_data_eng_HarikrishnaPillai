@@ -5,6 +5,8 @@ The Data consulting team at Jarvis pipelined the batch processed data from OLTP 
 # Implementaion
 ## Project Architecture
 
+In the below diagram you can see the high level design diagram of LGS web-app.The two sections are front-end and back-end APIs. CDN manages the HTML, CSS and Js content. The backend managed by API management which takes care of scalability of the app. Also, the Azure SQL Server OnLine Transactional Processing(OLTP) which keeps on consuming transactional data. This data is considered to be normalized. Futhermore, ETL(extract,transform & load) is performed into this data and pipelined to our Datawarehouse(OLAP). In our system we used PostgresSQL as Datawarehouse and connected it to jupyter notebook to perform analysis.
+
 ![Architecture](./assets/Arch.jpg "Architecture")
 
 ## Data Analytics and Wrangling
